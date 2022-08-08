@@ -1,3 +1,7 @@
-hola, visita mi blog aqui
+{% extends 'base.html' %}
 
-<a href="{% url 'blog:home' %}">ASA</a>
+{% block content %}
+      hola, visita mi blog aqui
+
+      <a href="{% url 'blog:home' %}">ASA</a>
+{% endblock content %}
